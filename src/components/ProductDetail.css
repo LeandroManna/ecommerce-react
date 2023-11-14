@@ -1,0 +1,36 @@
+body {
+    background-color: #778899;
+}
+
+.product-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #dddddd;
+  }
+  
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-info {
+    padding: 15px;
+  }
+  
+  .product-title {
+    text-align: center;
+  }
+  
+  .toggle-button {
+    cursor: pointer;
+  }
